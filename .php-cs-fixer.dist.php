@@ -13,11 +13,11 @@ $rules = [
     'binary_operator_spaces' => [
         'operators' => [
             '=>' => 'align',
-            '='  => 'align',
         ],
     ],
     'concat_space'            => ['spacing' => 'one'],
     'not_operator_with_space' => false,
+    'phpdoc_align' => ['align' => 'vertical'],
 ];
 
 $rules['increment_style'] = ['style' => 'post'];
